@@ -1,14 +1,53 @@
+@font-face {
+    font-family: "Inter-UI";
+    font-weight: 400;
+    src: url("../fonts/Inter-UI-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Inter-UI";
+    font-weight: 700;
+    src: url("../fonts/Inter-UI-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Droid Serif";
+    font-weight: 400;
+    src: url("../fonts/DroidSerif-Regular-webfont.woff2")
+}
+
+@font-face {
+    font-family: "Droid Serif";
+    font-weight: 400;
+    font-style: italic;
+    src: url("../fonts/DroidSerif-Italic-webfont.woff2")
+}
+
+@font-face {
+    font-family: "Droid Serif";
+    font-weight: 700;
+    src: url("../fonts/DroidSerif-Bold-webfont.woff2")
+}
+
+@font-face {
+    font-family: "Droid Serif";
+    font-weight: 700;
+    font-style: italic;
+    src: url("../fonts/DroidSerif-BoldItalic-webfont.woff2")
+}
+
 /*
     Elements: Page
-    ---
+
+
     Default markup for page level elements
 */
 
 html {
     font-size: 16px;
     line-height: 1.5;
-    font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
-    color: #111;
+    font-family: "Droid Serif", Helvetica, arial, sans-serif;
+    color: #5c6366;
     padding: 48px 24px 24px;
 }
 
@@ -25,13 +64,13 @@ body {
  */
 
 ::-moz-selection {
-    background: #e85e00;
+    background: #004766;
     color: white;
     text-shadow: none;
 }
 
 ::selection {
-    background: #e85e00;
+    background: #004766;
     color: white;
     text-shadow: none;
 }
@@ -52,6 +91,10 @@ img {
     ---
     Default markup for typographic elements
 */
+
+h1, h2, h3 {
+    color: #12181A;
+}
 
 h1 {
     font-size: 36px;
@@ -117,16 +160,16 @@ hr {
 }
 
 a {
-    color: RoyalBlue;
+    color: #007dB3;
     transition: all .1s ease-in-out;
 }
 
 a:visited, a:active {
-    color: BlueViolet;
+    color: #00E6A1;
 }
 
 a:hover, a:focus {
-    color: Crimson;
+    color: #1ABAFF;
 }
 
 /* Small devices (landscape phones, 576px and up) */
